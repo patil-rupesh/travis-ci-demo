@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 });
 
 const server = app.listen(3000, () => {
-    console.log('App running on port 3000');
+    console.log('Hi, App running on port 3000');
 });
 
 module.exports = server;
